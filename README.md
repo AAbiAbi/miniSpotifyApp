@@ -2,7 +2,8 @@
 Android app. miniSpotify
 
 ## Activity
-```
+
+```bash
 View
  |
  |-tab
