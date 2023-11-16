@@ -1,0 +1,2 @@
+# miniSpotifyApp
+Android app. miniSpotify
