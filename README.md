@@ -48,7 +48,7 @@ field dependency injection
 class CarII{
  lateinit var eignie: Engine
 
-fun start(){}
+ fun start(){}
 }
 
 fun main(){
@@ -67,7 +67,7 @@ constructor dependency injection
 class Car(private val engine:Engine){
  lateinit var eignie: Engine
 
-fun start(){}
+ fun start(){}
 }
 fun main(){
  var gasCar = Car(GasEngine())
@@ -77,3 +77,12 @@ fun main(){
 }
 ```
 
+Automation,
+```
+Application                 <- Hilt
+    |
+    |- Activity             <- Hilt EntryPoint
+           |
+           |-Fragment       <- Hilt
+           |-Fragment
+```
