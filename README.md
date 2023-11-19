@@ -1,5 +1,14 @@
 # miniSpotifyApp
-Android app. miniSpotify
+A Kotlin Spotify favorite app by leveraging Android Jetpack Library and Hilt Dependency Injection
+
+## Feature
+
+- Implemented the BottomBar & App Navigation using Jetpack Navigation component. Built the feed/album/favorite UI Jetpack Compose following MVVM architecture.
+- Created a mock RESTFUL Api json-server with Ktor and used the Retrofit to handle requests.
+- Utilized Hilt to do dependency injection, including repository layers within "favorite" and "home" features.
+- Enable the local cache ability for favorite feature by using Room Database.
+- Integrated the Google Exoplayer to handle the global music playback.
+
 
 ## Activity
 
@@ -83,6 +92,9 @@ Application                 <- Hilt
     |
     |- Activity             <- Hilt EntryPoint
            |
-           |-Fragment       <- Hilt
+           |-Fragment       <- Hilt  EntryPoint
            |-Fragment
 ```
+## Build the lite Restful Server with Ktor
+
+Ktor is a back-end server using Kotlin. It 
