@@ -97,4 +97,4 @@ Application                 <- Hilt
 ```
 ## Build the lite Restful Server with Ktor
 
-Ktor is a back-end server using Kotlin. It 
+Ktor is a back-end server using Kotlin. Concurrency control, 
